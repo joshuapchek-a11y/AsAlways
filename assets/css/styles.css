@@ -2,7 +2,7 @@
     /* COLOURS */
     --color-background: #ffffff;
     --color-text: #000000;
-    --color-link:  #E0115f;
+    --color-link:  #fff100;
 
     /* TYPOGRAPHY */
     /* Fonts */
@@ -152,6 +152,10 @@ nav a {
 
 .nav-left ul li {
   float: left;
+}
+
+.nav-left ul li a:hover{
+  color: var(--color-link);
 }
 
 .nav-right ul li{
