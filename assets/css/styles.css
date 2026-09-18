@@ -104,7 +104,7 @@ h6 {
 
 p.np{
   font-size: var(--fs-lg);
-  text-indent: 48px;
+  text-indent: 24px;
   font-weight: var(--fw-regular);
   line-height: var(--lh-normal);
   margin-top: 0;
