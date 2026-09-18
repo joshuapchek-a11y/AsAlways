@@ -30,6 +30,12 @@
     --lh-large: 1.8
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @media (max-width: 720px) {
 :root {
     --fs-xs: 0.75rem;
@@ -183,16 +189,28 @@ main div.container {
 
 main div.content {
   display: flex;
-  flex: wrap;
 }
 
 main div.column {
   flex: 0 0 45%;
-    max-width: 50%;
+  max-width: 50%;
 }
 main div.spacer {
   flex: 0 0 10%;
-    max-width: 10%;
+  max-width: 10%;
+}
+
+@media (max-width: 720px) {
+  main div.column {
+    flex: 0 0 47.5%;
+    max-width: 50%;
+    overflow-wrap: break-word;
+  }
+
+  main div.spacer {
+    flex: 0 0 5%;
+    max-width: 5%;
+  }
 }
 
 div a {
