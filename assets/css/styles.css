@@ -295,3 +295,9 @@ img.thumb {
   position: relative;
 }
 
+@media (max-width: 720px) {
+  .col {
+    flex: 0 0 100%;
+  }
+}
+
