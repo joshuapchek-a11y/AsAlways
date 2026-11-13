@@ -53,6 +53,7 @@
 
 /* BODY */
 body {
+  margin-top: 0;
   font-family: var(--font-body);
   color: var(--color-text);
   background: var(--color-background);
@@ -121,7 +122,7 @@ p.fp{
 
 nav {
   padding: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 nav ul {
@@ -225,5 +226,47 @@ div a {
 s {
   color: grey;
 }
+
+
+.projects-wrapper {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 0 0 calc(50% - 1rem);
+  min-width: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+img.thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 
