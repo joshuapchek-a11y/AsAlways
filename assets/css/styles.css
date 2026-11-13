@@ -269,5 +269,29 @@ img.thumb {
   aspect-ratio: 3 / 4;
 }
 
+.content:hover img.thumb{
+  opacity: 0.1;
+  transition: ease-in-out 0.3s;
+}
 
+.content:hover .caption {
+  visibility: visible;
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
 
