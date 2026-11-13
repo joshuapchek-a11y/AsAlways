@@ -310,3 +310,13 @@ img.thumb {
   }
 }
 
+.col.col-wide {
+  flex: 0 0 100%;
+}
+
+img.carousel {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
