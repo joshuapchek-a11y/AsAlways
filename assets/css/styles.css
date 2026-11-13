@@ -43,7 +43,7 @@
     --fs-md: 1.2rem;
     --fs-lg: 1.3rem;
     --fs-xl: 2rem;
-    --fs-2xl: 3.5rem;
+    --fs-2xl: 2rem;
     --fs-21xl: 5.5rem;
     --fs-3xl: 7rem;
 
@@ -149,6 +149,15 @@ nav a {
 .nav-left a {
   text-decoration-line: underline;
   text-decoration-thickness: 4px;
+}
+
+@media (max-width: 720px) {
+  .nav-left a{
+    text-decoration-thickness: 2px;
+  }
+  .nav-left {
+    padding-top: 5px;
+  }
 }
 
 .nav-left ul li {
